@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-import add_0
-print(f"1 + 2 = {add(1,2):d}")
+from add_0 import add
+sum = add(1 , 2)
+print(f"1 + 2 = {sum:d}")
